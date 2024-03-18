@@ -7,7 +7,7 @@ tags:
 ***functions***
 defined with the `fn` keyword  
 rust function use `snake_case` by convention. 
-the location of a functions definition does not matter, all that matter is that the definition is in the scope of the invocation.
+the location of a functions definition does not matter, all that matters is that the definition is in the scope of the invocation.
 
 parameters are defined in a comma separated list. each parameter must have the name and a type annotation.  
 function bodies in rust consist of a series of statements followed by an optional expression. the result of which is implicitly returned.  
