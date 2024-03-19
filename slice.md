@@ -21,6 +21,8 @@ let ipsum: &str = &x[6..];
 
 the string slice `&str` stores a pointer to the start of the slice and the length if the slice of the string being referenced. this data is of course fixed in length (`2 * usize`) and stored on the stack
 
+![[Pasted image 20240318122205.png]]
+
 > [!warning]
 > string slice ranges must occur at valid UTF-8 character boundaries
 
