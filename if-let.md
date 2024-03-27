@@ -55,6 +55,3 @@ this preserves the program correctness guarantees of rust.
 
 if the rule wasn't in place and rust instead returned `()` for all non matching cases and a value of type `T` for the specified matching case then that is essentially the billion dollar `null` mistake
 
-
-
-
